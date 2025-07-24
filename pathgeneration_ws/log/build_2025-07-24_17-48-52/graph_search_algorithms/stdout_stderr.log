@@ -1,0 +1,63 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/src/graph_search_algorithms/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms
+[ 25%] [32mBuilding CXX object CMakeFiles/a_star_graph_search.dir/src/a_star_planner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_graph_search.dir/src/dijkstra_planner.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable a_star_graph_search[0m
+[100%] [32m[1mLinking CXX executable dijkstra_graph_search[0m
+[100%] Built target a_star_graph_search
+[100%] Built target dijkstra_graph_search
+-- Install configuration: ""
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms/a_star_planner.hpp
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms/dijkstra_planner.hpp
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/dijkstra_graph_search
+-- Set runtime path of "/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/dijkstra_graph_search" to ""
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/a_star_graph_search
+-- Set runtime path of "/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/a_star_graph_search" to ""
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/package_run_dependencies/graph_search_algorithms
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/parent_prefix_path/graph_search_algorithms
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/ament_prefix_path.sh
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/path.sh
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/path.dsv
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.bash
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.sh
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.zsh
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.dsv
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/package.dsv
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/packages/graph_search_algorithms
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/graph_search_algorithmsConfig.cmake
+-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/graph_search_algorithmsConfig-version.cmake
+-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/package.xml

@@ -1,0 +1,67 @@
+[0.010s] Invoking command in '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms -- -j16 -l16
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.137s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.165s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.220s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.296s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.319s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.358s] -- Looking for pthread.h
+[0.430s] -- Looking for pthread.h - found
+[0.430s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.520s] -- Found Threads: TRUE  
+[0.560s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.561s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.582s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.653s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.703s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.703s] -- Configured cppcheck include dirs: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/src/graph_search_algorithms/include
+[0.703s] -- Configured cppcheck exclude dirs and/or files: 
+[0.703s] -- Added test 'lint_cmake' to check CMake code style
+[0.704s] -- Added test 'uncrustify' to check C / C++ code style
+[0.704s] -- Configured uncrustify additional arguments: 
+[0.705s] -- Added test 'xmllint' to check XML markup files
+[0.706s] -- Configuring done
+[0.716s] -- Generating done
+[0.721s] -- Build files have been written to: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms
+[0.756s] [ 25%] [32mBuilding CXX object CMakeFiles/a_star_graph_search.dir/src/a_star_planner.cpp.o[0m
+[0.756s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_graph_search.dir/src/dijkstra_planner.cpp.o[0m
+[10.945s] [ 75%] [32m[1mLinking CXX executable a_star_graph_search[0m
+[11.251s] [100%] [32m[1mLinking CXX executable dijkstra_graph_search[0m
+[11.509s] [100%] Built target a_star_graph_search
+[11.737s] [100%] Built target dijkstra_graph_search
+[11.747s] Invoked command in '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms -- -j16 -l16
+[11.757s] Invoking command in '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms
+[11.766s] -- Install configuration: ""
+[11.766s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include
+[11.766s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms
+[11.766s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms/a_star_planner.hpp
+[11.766s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms/dijkstra_planner.hpp
+[11.766s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/dijkstra_graph_search
+[11.772s] -- Set runtime path of "/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/dijkstra_graph_search" to ""
+[11.772s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/a_star_graph_search
+[11.776s] -- Set runtime path of "/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/a_star_graph_search" to ""
+[11.777s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/package_run_dependencies/graph_search_algorithms
+[11.777s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/parent_prefix_path/graph_search_algorithms
+[11.777s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/ament_prefix_path.sh
+[11.777s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/ament_prefix_path.dsv
+[11.777s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/path.sh
+[11.777s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/path.dsv
+[11.777s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.bash
+[11.777s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.sh
+[11.777s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.zsh
+[11.778s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.dsv
+[11.778s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/package.dsv
+[11.778s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/packages/graph_search_algorithms
+[11.778s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.778s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.778s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/graph_search_algorithmsConfig.cmake
+[11.778s] -- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/graph_search_algorithmsConfig-version.cmake
+[11.778s] -- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/package.xml
+[11.780s] Invoked command in '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms

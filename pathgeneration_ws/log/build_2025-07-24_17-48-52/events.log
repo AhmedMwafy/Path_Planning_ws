@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (graph_search_algorithms) JobQueued: {'identifier': 'graph_search_algorithms', 'dependencies': OrderedDict()}
+[0.000424] (graph_search_algorithms) JobStarted: {'identifier': 'graph_search_algorithms'}
+[0.006714] (graph_search_algorithms) JobProgress: {'identifier': 'graph_search_algorithms', 'progress': 'cmake'}
+[0.007343] (graph_search_algorithms) JobProgress: {'identifier': 'graph_search_algorithms', 'progress': 'build'}
+[0.007838] (graph_search_algorithms) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms', '--', '-j16', '-l16'], 'cwd': '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmedmwafy'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedmwafy'), ('OLDPWD', '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '2136'), ('SYSTEMD_EXEC_PID', '2616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '65449'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ahmedmwafy'), ('JOURNAL_STREAM', '8:1913'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedmwafy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ahmedmwafy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedmwafy-Dell-G15:@/tmp/.ICE-unix/2569,unix/ahmedmwafy-Dell-G15:/tmp/.ICE-unix/2569'), ('INVOCATION_ID', '45d69cc22747471285091fcb0f24dd1f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ff1a559f-8660-45ad-96f8-b1122e8fa603'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031680] (graph_search_algorithms) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099489] (-) TimerEvent: {}
+[0.136992] (graph_search_algorithms) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.165425] (graph_search_algorithms) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.168702] (graph_search_algorithms) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.173898] (graph_search_algorithms) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.181563] (graph_search_algorithms) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.192364] (graph_search_algorithms) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199701] (-) TimerEvent: {}
+[0.220524] (graph_search_algorithms) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.222225] (graph_search_algorithms) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.296252] (graph_search_algorithms) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.299781] (-) TimerEvent: {}
+[0.319523] (graph_search_algorithms) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.352508] (graph_search_algorithms) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.358137] (graph_search_algorithms) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.399908] (-) TimerEvent: {}
+[0.430332] (graph_search_algorithms) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.430751] (graph_search_algorithms) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500072] (-) TimerEvent: {}
+[0.519183] (graph_search_algorithms) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.520148] (graph_search_algorithms) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.560729] (graph_search_algorithms) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.561530] (graph_search_algorithms) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.581897] (graph_search_algorithms) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.600236] (-) TimerEvent: {}
+[0.653032] (graph_search_algorithms) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700337] (-) TimerEvent: {}
+[0.702977] (graph_search_algorithms) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.703335] (graph_search_algorithms) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/src/graph_search_algorithms/include\n'}
+[0.703480] (graph_search_algorithms) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.703860] (graph_search_algorithms) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.704491] (graph_search_algorithms) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.704586] (graph_search_algorithms) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.704909] (graph_search_algorithms) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.706162] (graph_search_algorithms) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.716662] (graph_search_algorithms) StdoutLine: {'line': b'-- Generating done\n'}
+[0.721082] (graph_search_algorithms) StdoutLine: {'line': b'-- Build files have been written to: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms\n'}
+[0.755807] (graph_search_algorithms) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/a_star_graph_search.dir/src/a_star_planner.cpp.o\x1b[0m\n'}
+[0.756100] (graph_search_algorithms) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dijkstra_graph_search.dir/src/dijkstra_planner.cpp.o\x1b[0m\n'}
+[0.800465] (-) TimerEvent: {}
+[0.900804] (-) TimerEvent: {}
+[1.001183] (-) TimerEvent: {}
+[1.101602] (-) TimerEvent: {}
+[1.201947] (-) TimerEvent: {}
+[1.302310] (-) TimerEvent: {}
+[1.402748] (-) TimerEvent: {}
+[1.503116] (-) TimerEvent: {}
+[1.603458] (-) TimerEvent: {}
+[1.703806] (-) TimerEvent: {}
+[1.804176] (-) TimerEvent: {}
+[1.904570] (-) TimerEvent: {}
+[2.004953] (-) TimerEvent: {}
+[2.105338] (-) TimerEvent: {}
+[2.205744] (-) TimerEvent: {}
+[2.306123] (-) TimerEvent: {}
+[2.406473] (-) TimerEvent: {}
+[2.506834] (-) TimerEvent: {}
+[2.607188] (-) TimerEvent: {}
+[2.707543] (-) TimerEvent: {}
+[2.807971] (-) TimerEvent: {}
+[2.908401] (-) TimerEvent: {}
+[3.008760] (-) TimerEvent: {}
+[3.109155] (-) TimerEvent: {}
+[3.209562] (-) TimerEvent: {}
+[3.309942] (-) TimerEvent: {}
+[3.410328] (-) TimerEvent: {}
+[3.510762] (-) TimerEvent: {}
+[3.611124] (-) TimerEvent: {}
+[3.711453] (-) TimerEvent: {}
+[3.811805] (-) TimerEvent: {}
+[3.912271] (-) TimerEvent: {}
+[4.012805] (-) TimerEvent: {}
+[4.113176] (-) TimerEvent: {}
+[4.213518] (-) TimerEvent: {}
+[4.313859] (-) TimerEvent: {}
+[4.414215] (-) TimerEvent: {}
+[4.514594] (-) TimerEvent: {}
+[4.614994] (-) TimerEvent: {}
+[4.715385] (-) TimerEvent: {}
+[4.815770] (-) TimerEvent: {}
+[4.916126] (-) TimerEvent: {}
+[5.016475] (-) TimerEvent: {}
+[5.116858] (-) TimerEvent: {}
+[5.217242] (-) TimerEvent: {}
+[5.317683] (-) TimerEvent: {}
+[5.418117] (-) TimerEvent: {}
+[5.518491] (-) TimerEvent: {}
+[5.618859] (-) TimerEvent: {}
+[5.719227] (-) TimerEvent: {}
+[5.819701] (-) TimerEvent: {}
+[5.920139] (-) TimerEvent: {}
+[6.020488] (-) TimerEvent: {}
+[6.120845] (-) TimerEvent: {}
+[6.221283] (-) TimerEvent: {}
+[6.321693] (-) TimerEvent: {}
+[6.422088] (-) TimerEvent: {}
+[6.522499] (-) TimerEvent: {}
+[6.622881] (-) TimerEvent: {}
+[6.723264] (-) TimerEvent: {}
+[6.823669] (-) TimerEvent: {}
+[6.924087] (-) TimerEvent: {}
+[7.024534] (-) TimerEvent: {}
+[7.124872] (-) TimerEvent: {}
+[7.225166] (-) TimerEvent: {}
+[7.325374] (-) TimerEvent: {}
+[7.425592] (-) TimerEvent: {}
+[7.525923] (-) TimerEvent: {}
+[7.626310] (-) TimerEvent: {}
+[7.726678] (-) TimerEvent: {}
+[7.827047] (-) TimerEvent: {}
+[7.927450] (-) TimerEvent: {}
+[8.027847] (-) TimerEvent: {}
+[8.128238] (-) TimerEvent: {}
+[8.228572] (-) TimerEvent: {}
+[8.328946] (-) TimerEvent: {}
+[8.429288] (-) TimerEvent: {}
+[8.529772] (-) TimerEvent: {}
+[8.630117] (-) TimerEvent: {}
+[8.730472] (-) TimerEvent: {}
+[8.830852] (-) TimerEvent: {}
+[8.931196] (-) TimerEvent: {}
+[9.031553] (-) TimerEvent: {}
+[9.131860] (-) TimerEvent: {}
+[9.232203] (-) TimerEvent: {}
+[9.332522] (-) TimerEvent: {}
+[9.432887] (-) TimerEvent: {}
+[9.533256] (-) TimerEvent: {}
+[9.633681] (-) TimerEvent: {}
+[9.734000] (-) TimerEvent: {}
+[9.834356] (-) TimerEvent: {}
+[9.934728] (-) TimerEvent: {}
+[10.035062] (-) TimerEvent: {}
+[10.135440] (-) TimerEvent: {}
+[10.235777] (-) TimerEvent: {}
+[10.336202] (-) TimerEvent: {}
+[10.436774] (-) TimerEvent: {}
+[10.537339] (-) TimerEvent: {}
+[10.637935] (-) TimerEvent: {}
+[10.738509] (-) TimerEvent: {}
+[10.839130] (-) TimerEvent: {}
+[10.939775] (-) TimerEvent: {}
+[10.944988] (graph_search_algorithms) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable a_star_graph_search\x1b[0m\n'}
+[11.039909] (-) TimerEvent: {}
+[11.140317] (-) TimerEvent: {}
+[11.240766] (-) TimerEvent: {}
+[11.251026] (graph_search_algorithms) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dijkstra_graph_search\x1b[0m\n'}
+[11.341008] (-) TimerEvent: {}
+[11.441520] (-) TimerEvent: {}
+[11.509646] (graph_search_algorithms) StdoutLine: {'line': b'[100%] Built target a_star_graph_search\n'}
+[11.541667] (-) TimerEvent: {}
+[11.642008] (-) TimerEvent: {}
+[11.737561] (graph_search_algorithms) StdoutLine: {'line': b'[100%] Built target dijkstra_graph_search\n'}
+[11.742098] (-) TimerEvent: {}
+[11.747405] (graph_search_algorithms) CommandEnded: {'returncode': 0}
+[11.748399] (graph_search_algorithms) JobProgress: {'identifier': 'graph_search_algorithms', 'progress': 'install'}
+[11.757141] (graph_search_algorithms) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms'], 'cwd': '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmedmwafy'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedmwafy'), ('OLDPWD', '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '2136'), ('SYSTEMD_EXEC_PID', '2616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '65449'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ahmedmwafy'), ('JOURNAL_STREAM', '8:1913'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedmwafy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ahmedmwafy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedmwafy-Dell-G15:@/tmp/.ICE-unix/2569,unix/ahmedmwafy-Dell-G15:/tmp/.ICE-unix/2569'), ('INVOCATION_ID', '45d69cc22747471285091fcb0f24dd1f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ff1a559f-8660-45ad-96f8-b1122e8fa603'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/build/graph_search_algorithms'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.765713] (graph_search_algorithms) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.765998] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include\n'}
+[11.766192] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms\n'}
+[11.766310] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms/a_star_planner.hpp\n'}
+[11.766486] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/include/include/graph_search_algorithms/dijkstra_planner.hpp\n'}
+[11.766593] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/dijkstra_graph_search\n'}
+[11.772351] (graph_search_algorithms) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/dijkstra_graph_search" to ""\n'}
+[11.772519] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/a_star_graph_search\n'}
+[11.776475] (graph_search_algorithms) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/lib/graph_search_algorithms/a_star_graph_search" to ""\n'}
+[11.776860] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/package_run_dependencies/graph_search_algorithms\n'}
+[11.776976] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/parent_prefix_path/graph_search_algorithms\n'}
+[11.777166] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/ament_prefix_path.sh\n'}
+[11.777245] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/ament_prefix_path.dsv\n'}
+[11.777320] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/path.sh\n'}
+[11.777394] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/environment/path.dsv\n'}
+[11.777467] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.bash\n'}
+[11.777539] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.sh\n'}
+[11.777644] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.zsh\n'}
+[11.777844] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/local_setup.dsv\n'}
+[11.778090] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/package.dsv\n'}
+[11.778361] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/ament_index/resource_index/packages/graph_search_algorithms\n'}
+[11.778437] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.778495] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.778547] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/graph_search_algorithmsConfig.cmake\n'}
+[11.778607] (graph_search_algorithms) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/cmake/graph_search_algorithmsConfig-version.cmake\n'}
+[11.778673] (graph_search_algorithms) StdoutLine: {'line': b'-- Installing: /home/ahmedmwafy/My_Projects/Path_Planning/pathgeneration_ws/install/graph_search_algorithms/share/graph_search_algorithms/package.xml\n'}
+[11.779998] (graph_search_algorithms) CommandEnded: {'returncode': 0}
+[11.792326] (graph_search_algorithms) JobEnded: {'identifier': 'graph_search_algorithms', 'rc': 0}
+[11.792895] (-) EventReactorShutdown: {}

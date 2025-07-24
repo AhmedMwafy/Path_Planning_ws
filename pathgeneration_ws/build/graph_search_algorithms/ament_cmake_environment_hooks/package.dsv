@@ -1,0 +1,4 @@
+source;share/graph_search_algorithms/local_setup.bash
+source;share/graph_search_algorithms/local_setup.dsv
+source;share/graph_search_algorithms/local_setup.sh
+source;share/graph_search_algorithms/local_setup.zsh
